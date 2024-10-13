@@ -1,0 +1,81 @@
+.task-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .task-form h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .task-form label {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .task-form select,
+  .task-form input[type="date"],
+  .task-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .task-form select:focus,
+  .task-form input[type="date"]:focus,
+  .task-form textarea:focus {
+    border-color: #5c9cff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+  }
+  
+  .task-form textarea {
+    resize: vertical;
+    height: 80px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .form-actions button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-actions button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .form-actions button[type="submit"]:disabled {
+    background-color: #6c757d;
+  }
+  
+  .form-actions button[type="button"] {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .form-actions button:hover {
+    opacity: 0.9;
+  }
+  
